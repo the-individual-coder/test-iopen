@@ -9,7 +9,7 @@
 	<link rel="icon" href="./img/logo.png">
 	<link rel="stylesheet"
   href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -35,9 +35,9 @@
 	<section class="home" id="home">
 		<div class="home-text">
 			<h4>Hello</h4>
-			<h1>I'm Ralph Matthew <br> Mana<span>bat</span></h1>
-			<h3>Web Developer</h3>
-			<a id="downloadButton" download="RalphMatthewManabat" href="./assets/RESUME .pdf" class="btn">Download CV/Resume</a>
+			<h1>I'm Ralph Matthew <br> Manabat</h1>
+			<h3><span>Web Developer</span> </h3>
+			<a id="downloadButton" download="RalphMatthewManabat" href="./assets/RESUME.pdf" class="btn">Download CV/Resume</a>
 		</div>
 	</section>
 
@@ -45,13 +45,13 @@
 	<section class="about" id="about">
 		<div class="about-img">
 		
-			<img src="img/msg777000-4674.jpg">
+			<img src="img/msg777000-4674.jpg" class="rounded-md" >
 		</div>
 
 		<div class="about-text">
 			<h2>About Me</h2>
-			<h4>Hi, I'm a 4th Year College Student Graduating and Running for Cumlaude</h4>
-			<p>A passionate person in creating a scalable web application, adaptive and creative problem solver with experience working on various projects from start to finish.</p>
+			<h4 style="text-align: justify;">Hi, I'm a fresh graduate that took Bachelor of Science in Information Technology and graduated as Magna Cumlaude at Bestlink College.</h4>
+			<p style="text-align: justify;">A passionate person in creating a scalable web application, adaptive and creative with robust solutions. Experienced working on various projects using Agile Methodology.</p>
 			<div class="about-gri">
 				<div class="about-in">
 					<h5>• Problem Solver</h5>
@@ -93,7 +93,13 @@
 				<div class="skill-box">
 					<p>CSS</p>
 					<div class="CSS">
-						<div class="percent">80%</div>
+						<div class="percent">90%</div>
+					</div>
+				</div>
+				<div class="skill-box">
+					<p>Taillwind CSS</p>
+					<div class="tailwind">
+						<div class="percent">50%</div>
 					</div>
 				</div>
 				<div class="skill-box">
@@ -117,7 +123,7 @@
 				<div class="skill-box">
 					<p>MYSQL</p>
 					<div class="MYSQL">
-						<div class="percent">60%</div>
+						<div class="percent">70%</div>
 					</div>
 				</div>
 				<div class="skill-box">
@@ -157,6 +163,18 @@
 				</div>
 				<h3>Freight Management System (Capstone)</h3>
 			</div>
+			<div class="row">
+				<a href="https://jginfinit.vercel.app/" target="_blank"><img src="img/jg.PNG"></a>
+				<div class="main-row">
+					<div class="row-text">
+						<h6>HTML, CSS, JS, React JS, ExpressJS, NodeJS, MYSQL, Firebase</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<h3>Insurance Management App (Internship)</h3>
+			</div>
 			<div class="row">	
 				<a href="https://cinemabook.vercel.app/" target="_blank"><img src="img/cinema.PNG"></a>
 				<div class="main-row">
@@ -167,20 +185,7 @@
 						<i class='bx bx-heart'></i>
 					</div>
 				</div>
-				<h3>Cinema Booking System</h3>
-			</div>
-
-			<div class="row">
-				<a href="https://sweninsurance.vercel.app" target="_blank"><img src="img/swen.PNG"></a>
-				<div class="main-row">
-					<div class="row-text">
-						<h6>HTML, CSS, JS, React JS, ExpressJS, NodeJS, MYSQL</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>SWEN Insurance Calculaton</h3>
+				<h3>Cinema Booking System (Student Project)</h3>
 			</div>
 			
 	
@@ -195,9 +200,9 @@
 			<h2>Contact Me</h2>
 			<h4>Let's Work Together</h4>
 			<div class="contact-list">
-				<li><a href="#">Quezon City, Metro Manila</a></li>
-				<li><a href="#">ralphmatthewmanabat@gmail.com</a></li>
-				<li><a href="#">+63 981-264-5578</a></li>
+				<li><a href="geo:14.6500,121.0333" target="_blank">Quezon City, Metro Manila</a></li>
+				<li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=ralphmatthewmanabat@gmail.com" target="_blank">ralphmatthewmanabat@gmail.com</a></li>
+				<li><a href="tel:+63981264571">+63 981-264-5578</a></li>
 			</div>
 			<div class="contact-icons">
 				<a href="https://www.linkedin.com/in/ralphmatthewmanabat/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
@@ -207,11 +212,11 @@
 		</div>
 
 		<div class="contact-form">
-			<form action="">
-				<input type="" placeholder="Enter Your Name" required>
-				<input type="email" placeholder="Enter Your Email" required>
-				<input type="" placeholder="Enter Your Subject">
-				<textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+			<form action="#" id="contact-form">
+				<input type="" id="name" placeholder="Enter Your Name" required>
+				<input type="email" id="email" placeholder="Enter Your Email" required>
+				<input type="" id="subject" placeholder="Enter Your Subject">
+				<textarea name="" id="message" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
 				<input type="submit" value="Submit" class="send">
 			</form>
 		</div>

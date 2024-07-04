@@ -185,58 +185,65 @@ header.sticky{
 	flex-direction: column;
 	gap: 20px;
 }
-.services-content .skills .skill-box :is(.HTML, .CSS, .JS, .ReactJS, .NodeJS, .MYSQL, .GIT){
+.services-content .skills .skill-box :is(.HTML, .CSS, .JS, .ReactJS, .NodeJS, .MYSQL, .GIT, .tailwind){
 	width: 100%;
-	height: 25px;
+	height: 2em;
 	background-color: white;
 	border-radius: 20px;
 } 
 .services-content .skills .skill-box .HTML .percent{
 	width: 90%;
 	background-color: #1976D2;
-	height: 25px;
+	height: 2em;
 	border-radius: 25px;
 	padding: 5px;
 }
 .services-content .skills .skill-box .CSS .percent{
-	width: 80%;
+	width: 90%;
 	background-color: #1976D2;
-	height: 25px;
+	height: 2em;
+	border-radius: 25px;
+	padding: 5px;
+}
+.services-content .skills .skill-box .tailwind .percent{
+	width: 50%;
+	background-color: #1976D2;
+	height: 2em;
 	border-radius: 25px;
 	padding: 5px;
 }
 .services-content .skills .skill-box .JS .percent{
 	width: 85%;
 	background-color: #1976D2;
-	height: 25px;
+	height: 2em;
 	border-radius: 25px;
 	padding: 5px;
 }
 .services-content .skills .skill-box .ReactJS .percent{
 	width: 80%;
 	background-color: #1976D2;
-	height: 25px;
+	height: 2em;
 	border-radius: 25px;
 	padding: 5px;
 }
 .services-content .skills .skill-box .NodeJS .percent{
 	width: 80%;
 	background-color: #1976D2;
-	height: 25px;
+	height: 2em;
 	border-radius: 25px;
 	padding: 5px;
 }
 .services-content .skills .skill-box .MYSQL .percent{
-	width: 60%;
+	width: 70%;
 	background-color: #1976D2;
-	height: 25px;
+	height: 2em;
 	border-radius: 25px;
 	padding: 5px;
 }
 .services-content .skills .skill-box .GIT .percent{
 	width: 50%;
 	background-color: #1976D2;
-	height: 25px;
+	height: 2em;
 	border-radius: 25px;
 	padding: 5px;
 }
