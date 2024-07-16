@@ -490,3 +490,15 @@ form textarea{
 	  --h2-font: 2.7rem;
 	}
 }
+.box1{
+	height: 300px;
+	width: 300px;
+	background-color: wheat;
+	transition: ease-out 0.2s;
+}
+.box1:hover{
+	text-align: center;
+	/* transform: translate(-6px, 3px); */
+	transform: scale(1.1) translateY(-100px);
+	border-radius: 20px;
+}
