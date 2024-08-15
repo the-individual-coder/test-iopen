@@ -502,3 +502,9 @@ form textarea{
 	transform: scale(1.1) translateY(-100px);
 	border-radius: 20px;
 }
+
+img{
+	width: 20rem;
+	height: 20rem;
+	object-fit: contain;
+}
